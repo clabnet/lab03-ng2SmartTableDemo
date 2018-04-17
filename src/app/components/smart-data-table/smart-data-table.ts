@@ -46,7 +46,7 @@ export var settings = {
   attr: {
     class: 'table table-striped table-bordered table-hover'
   },
-  defaultStyle: false
+  defaultStyle: true
 };
 
 export var data = [
