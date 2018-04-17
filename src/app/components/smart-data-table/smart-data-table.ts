@@ -17,6 +17,14 @@ export var settings = {
       filter: false,
     },
   },
+  pager: {  
+    display: true,  
+    perPage: 10  
+  },
+  attr: {  
+    class: 'table table-striped table-bordered table-hover'  
+  },  
+  defaultStyle: false    
 };
 
 export var data = [

@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { SmartDataTableComponent } from './components/smart-data-table/smart-data-table.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SmartDataTableComponent
+    SmartDataTableComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
