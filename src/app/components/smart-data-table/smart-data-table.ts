@@ -1,3 +1,5 @@
+// https://www.js-tutorials.com/javascript-tutorial/add-edit-delete-example-using-ng2-smart-angular-4-part-ii
+
 export var settings = {
   columns: {
     id: {
@@ -17,14 +19,34 @@ export var settings = {
       filter: false,
     },
   },
-  pager: {  
-    display: true,  
-    perPage: 10  
+
+  // mode: "external",
+  actions: {
+    add: true, position: 'right',
+    confirmCreate: true
+    // custom: [{ name: 'View', title: `<i class="fa fa-eye" aria-hidden="true"></i>` }]
   },
-  attr: {  
-    class: 'table table-striped table-bordered table-hover'  
-  },  
-  defaultStyle: false    
+  edit: {
+    editButtonContent: '<i class="fa fa-2x fa-pencil-square" aria-hidden="true"></i>',
+    saveButtonContent: '<i class="fa fa-2x fa-check"></i>',
+    cancelButtonContent: '<i class="fa fa-2x fa-close"></i>',
+    confirmSave: true
+  },
+  delete: {
+    deleteButtonContent: '<i class="fa fa-2x fa-trash" aria-hidden="true"></i>',
+    confirmDelete: true
+  },
+
+
+
+  pager: {
+    display: true,
+    perPage: 3
+  },
+  attr: {
+    class: 'table table-striped table-bordered table-hover'
+  },
+  defaultStyle: false
 };
 
 export var data = [

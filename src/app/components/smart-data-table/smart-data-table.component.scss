@@ -1,3 +1,12 @@
-:host /deep/ ng2-smart-table thead>tr>th {
-    background-color: rgb(0, 174, 255);
+:host /deep/ ng2-smart-table-title a:focus {
+    color: #009ECE;
+}
+
+:host /deep/ ng2-smart-table thead>tr>th>div {
+    color: #009ECE;
+}
+
+:host /deep/ td.ng2-smart-actions a {
+    cursor: pointer;
+    color: #009ECE;
 }

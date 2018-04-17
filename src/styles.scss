@@ -4,3 +4,6 @@
 // import your own custom files, e.g.
 // @import "variables";
 // @import "global";
+
+$fa-font-path: "../node_modules/font-awesome/fonts";
+@import "../node_modules/font-awesome/scss/font-awesome.scss";
