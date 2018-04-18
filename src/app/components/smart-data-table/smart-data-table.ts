@@ -2,13 +2,21 @@
 
 export var settings = {
   columns: {
+    // check1: {
+    //   title: 'Checked',
+    //   type: 'checkbox',
+    //   defaultValue: true,
+    //   editor: {
+    //     type: 'checkbox'  
+    //   }
+    // },
     id: {
       title: 'ID',
       filter: false,
     },
     name: {
       title: 'Full Name',
-      filter: false,
+      filter: true,
     },
     username: {
       title: 'User Name',
@@ -20,20 +28,26 @@ export var settings = {
     },
   },
 
+  isPaginationEnabled: true,
+  isGlobalSearchActivated: true,
+  // itemsByPage: 10,
+  selectionMode: 'single',
+
   // mode: "external",
+  mode: 'inline',
   actions: {
     add: true, position: 'right',
-    confirmCreate: true
-    // custom: [{ name: 'View', title: `<i class="fa fa-eye" aria-hidden="true"></i>` }]
+    confirmCreate: true,
+    custom: [{ name: 'View', title: `<i class="fa fa-eye" aria-hidden="true"></i>` }]
   },
   edit: {
-    editButtonContent: '<i class="fa fa-2x fa-pencil-square" aria-hidden="true"></i>',
-    saveButtonContent: '<i class="fa fa-2x fa-check"></i>',
-    cancelButtonContent: '<i class="fa fa-2x fa-close"></i>',
+    editButtonContent: '<i class="fa fa-1x fa-pencil-square" aria-hidden="true"></i>',
+    saveButtonContent: '<i class="fa fa-1x fa-check"></i>',
+    cancelButtonContent: '<i class="fa fa-1x fa-close"></i>',
     confirmSave: true
   },
   delete: {
-    deleteButtonContent: '<i class="fa fa-2x fa-trash" aria-hidden="true"></i>',
+    deleteButtonContent: '<i class="fa fa-1x fa-trash" aria-hidden="true"></i>',
     confirmDelete: true
   },
 

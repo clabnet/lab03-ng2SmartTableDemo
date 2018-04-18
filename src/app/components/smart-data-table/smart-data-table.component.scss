@@ -6,6 +6,10 @@
     color: #009ECE;
 }
 
+:host /deep/ ng2-smart-table tbody {
+    line-height: 7px;
+}
+
 :host /deep/ td.ng2-smart-actions a {
     cursor: pointer;
     color: #009ECE;
